@@ -66,3 +66,13 @@ Gets a transaction from the blockchain.
 - [Promise] A Q promise with the HTTP result. JSON result is resolved to `resolved.data`.
 
 > **Tip**: the returned `block_height` property of the transaction JSON is present and greater than zero if the transaction is already confirmed. If this property is not present in the JSON or equal to or less than zero, the transaction was not already confirmed.
+
+### Under development
+
+<font color="red">**THE FOLLOWING OPERATIONS ARE UNDER DEVELOPMENT.** This means they are incomplete, not working or unstable.</font> 
+
+#### easyBtc.decodeTransaction(hex)
+Decodes a transaction from its hex script.
+
+#### easyBtc.createPushAndConfirmTransaction(fromWIF, txHashOrigin, toAddress, value, opt_timeout, opt_interval)
+Creates, pushes and awaits for a transaction confirmation.
