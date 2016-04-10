@@ -1,7 +1,8 @@
 # easy-bitcoin-js
-A simple module with basic Bitcoin operations using [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) and [Blockchain.info](https://blockchain.info) API.
 
-### How to use
+[![npm package](https://nodei.co/npm/request.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/request/)
+
+### Super simple to use
 
 ```javascript
 var easyBtc = require('easy-bitcoin-js');
@@ -26,7 +27,7 @@ Creates a random new wallet.
 
 #### easyBtc.getWallet(address)
 Gets information from an address in the blockchain.
-  
+
 ##### Arguments
 - [String] `address`: the address of the wallet.
 
