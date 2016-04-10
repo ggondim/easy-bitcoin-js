@@ -23,6 +23,7 @@ Creates a random new wallet.
 - [String] `wif`: private key in WIF format
 - [String] `address`: public key (address)
 
+
 #### easyBtc.getWallet(address)
 Gets information from an address in the blockchain.
   
@@ -33,6 +34,7 @@ Gets information from an address in the blockchain.
 - [Promise] A Q promise with the HTTP result. JSON result is resolved to `resolved.data`.
 
 > **Tip**: the returned `final_balance` property of the transaction JSON contains the wallet's balance.
+
 
 #### easyBtc.newTransaction(fromWIF, txHashOrigin, toAddress, value)
 Creates a transaction.
@@ -47,6 +49,7 @@ Creates a transaction.
 - [Object] `$$tx`: bitcoinjs transaction object.
 - [String] `hex`: the transaction hex script to push into the blockchain.
 
+
 #### easyBtc.pushTransaction(hexTx)
 Pushes a transaction to the blockchain.
 
@@ -55,6 +58,7 @@ Pushes a transaction to the blockchain.
 
 ##### Returns
 - [Promise] A Q promise with the HTTP result.
+
 
 #### easyBtc.getTransaction(txHash)
 Gets a transaction from the blockchain.
@@ -66,6 +70,7 @@ Gets a transaction from the blockchain.
 - [Promise] A Q promise with the HTTP result. JSON result is resolved to `resolved.data`.
 
 > **Tip**: the returned `block_height` property of the transaction JSON is present and greater than zero if the transaction is already confirmed. If this property is not present in the JSON or equal to or less than zero, the transaction was not already confirmed.
+
 
 ### Under development
 
