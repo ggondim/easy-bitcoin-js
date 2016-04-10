@@ -69,10 +69,14 @@ Gets a transaction from the blockchain.
 
 ### Under development
 
-<font color="red">**THE FOLLOWING OPERATIONS ARE UNDER DEVELOPMENT.** This means they are incomplete, not working or unstable.</font> 
+>**THE FOLLOWING OPERATIONS ARE UNDER DEVELOPMENT.** This means they are incomplete, not working or unstable.
 
 #### easyBtc.decodeTransaction(hex)
 Decodes a transaction from its hex script.
 
+**Status**: need to parse Blockchain.info HTML reponse and extract transaction JSON from a `<pre>` tag.
+
 #### easyBtc.createPushAndConfirmTransaction(fromWIF, txHashOrigin, toAddress, value, opt_timeout, opt_interval)
 Creates, pushes and awaits for a transaction confirmation.
+
+**Status**: Done, just waiting for the `decodeTransaction` method to be completed.
