@@ -9,6 +9,12 @@ var easyBtc = require('easy-bitcoin-js');
 
 ### Supported operations
 
+- [Creating a random new wallet](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcnewwallet)
+- [Getting a wallet from the Blockchain and it's current balance](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcgetwallet)
+- [Creating a transaction and getting it's hex script](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcnewtransaction)
+- [Pushing a transaction to the Blockchain](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcpushtransaction)
+- [Getting a transaction from the Blockchain and it's confirmation](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcgettransaction)
+
 #### easyBtc.newWallet()
 Creates a random new wallet.
 
