@@ -1,12 +1,16 @@
 # easy-bitcoin-js
 
-[![npm package](https://nodei.co/npm/request.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/request/)
+[![npm package](https://nodei.co/npm/easy-bitcoin-js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/request/)
 
 ### Super simple to use
 
 ```javascript
 var easyBtc = require('easy-bitcoin-js');
 ```
+
+### Development status
+
+> **We are in alpha.** This means the current operations, even if they are complete, are under development and were not tested.
 
 ### Supported operations
 
