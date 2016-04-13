@@ -1,6 +1,8 @@
-# easy-bitcoin-js [![Build Status](https://travis-ci.org/ggondim/easy-bitcoin-js.svg?branch=master)](https://travis-ci.org/ggondim/easy-bitcoin-js)
+# easy-bitcoin-js
 
 A simple module with basic Bitcoin operations using [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) and [Blockchain.info API](http://blockchain.info).
+
+[![Build Status](https://travis-ci.org/ggondim/easy-bitcoin-js.svg?branch=master)](https://travis-ci.org/ggondim/easy-bitcoin-js)
 
 [![npm package](https://nodei.co/npm/easy-bitcoin-js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/easy-bitcoin-js/)
 
