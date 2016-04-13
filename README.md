@@ -14,6 +14,8 @@ var easyBtc = require('easy-bitcoin-js');
 
 > **Some features are in alpha.** This means some operations, even if they are complete, are under development and were not tested. Tested features are documented with [![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png)] icon.
 
+[There is a milestone](https://github.com/ggondim/easy-bitcoin-js/milestones/v1) of pending tasks until we release it as a stable v1.  
+
 ### Features
 
 - [Creating a random new wallet](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcnewwallet)

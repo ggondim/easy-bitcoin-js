@@ -1,6 +1,6 @@
 {
   "name": "easy-bitcoin-js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A simple module with basic Bitcoin operations using bitcoinjs-lib and Blockchain.info API.",
   "main": "index.js",
   "scripts": {
