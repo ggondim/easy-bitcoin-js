@@ -12,7 +12,7 @@ var easyBtc = require('easy-bitcoin-js');
 
 ### Development status
 
-> **Some features are in alpha.** This means some operations, even if they are complete, are under development and were not tested. Tested features are documented with [![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png)] icon.
+> **Some features are in alpha.** This means some operations, even if they are complete, are under development and were not tested. Tested features are documented with ![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png) icon.
 
 [There is a milestone](https://github.com/ggondim/easy-bitcoin-js/milestones/v1) of pending tasks until we release it as a stable v1.  
 
@@ -24,7 +24,7 @@ var easyBtc = require('easy-bitcoin-js');
 - [Pushing a transaction to the Blockchain](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcpushtransaction)
 - [Getting a transaction from the Blockchain and it's confirmation](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcgettransaction)
 
-#### newWallet() [![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png)]
+#### newWallet() ![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png)
 Creates a random new wallet.
 
 ##### Returns
@@ -33,7 +33,7 @@ Creates a random new wallet.
 - [String] `address`: public key (address)
 
 
-#### getWallet(address) [![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png)]
+#### getWallet(address) ![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png)
 Gets information from an address in the blockchain.
 
 ##### Arguments
