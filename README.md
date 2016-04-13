@@ -1,6 +1,6 @@
-# easy-bitcoin-js
+# easy-bitcoin-js [![Build Status](https://travis-ci.org/ggondim/easy-bitcoin-js.svg?branch=master)](https://travis-ci.org/ggondim/easy-bitcoin-js)
 
-A simple module with basic Bitcoin operations using [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) and [Blockchain.info API](http://blockchain.info). 
+A simple module with basic Bitcoin operations using [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) and [Blockchain.info API](http://blockchain.info).
 
 [![npm package](https://nodei.co/npm/easy-bitcoin-js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/easy-bitcoin-js/)
 
@@ -12,9 +12,9 @@ var easyBtc = require('easy-bitcoin-js');
 
 ### Development status
 
-> **We are in alpha.** This means the current operations, even if they are complete, are under development and were not tested.
+> **Some features are in alpha.** This means some operations, even if they are complete, are under development and were not tested. Tested features are documented with [![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png)] icon.
 
-### Supported operations
+### Features
 
 - [Creating a random new wallet](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcnewwallet)
 - [Getting a wallet from the Blockchain and it's current balance](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcgetwallet)
@@ -22,7 +22,7 @@ var easyBtc = require('easy-bitcoin-js');
 - [Pushing a transaction to the Blockchain](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcpushtransaction)
 - [Getting a transaction from the Blockchain and it's confirmation](https://github.com/ggondim/easy-bitcoin-js/blob/master/README.md#easybtcgettransaction)
 
-#### easyBtc.newWallet()
+#### newWallet() [![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png)]
 Creates a random new wallet.
 
 ##### Returns
@@ -31,7 +31,7 @@ Creates a random new wallet.
 - [String] `address`: public key (address)
 
 
-#### easyBtc.getWallet(address)
+#### getWallet(address) [![Done and tested](https://www.easydna.co.uk/wp-content/themes/easydna1/images/icon-check.png)]
 Gets information from an address in the blockchain.
 
 ##### Arguments
@@ -43,7 +43,7 @@ Gets information from an address in the blockchain.
 > **Tip**: the returned `final_balance` property of the transaction JSON contains the wallet's balance.
 
 
-#### easyBtc.newTransaction(fromWIF, txHashOrigin, toAddress, value)
+#### newTransaction(fromWIF, txHashOrigin, toAddress, value)
 Creates a transaction.
 
 ##### Arguments
@@ -57,7 +57,7 @@ Creates a transaction.
 - [String] `hex`: the transaction hex script to push into the blockchain.
 
 
-#### easyBtc.pushTransaction(hexTx)
+#### pushTransaction(hexTx)
 Pushes a transaction to the blockchain.
 
 ##### Arguments
@@ -67,7 +67,7 @@ Pushes a transaction to the blockchain.
 - [Promise] A Q promise with the HTTP result.
 
 
-#### easyBtc.getTransaction(txHash)
+#### getTransaction(txHash)
 Gets a transaction from the blockchain.
 
 ##### Arguments
@@ -83,12 +83,12 @@ Gets a transaction from the blockchain.
 
 >**THE FOLLOWING OPERATIONS ARE UNDER DEVELOPMENT.** This means they are incomplete, not working or unstable.
 
-#### easyBtc.decodeTransaction(hex)
+#### decodeTransaction(hex)
 Decodes a transaction from its hex script.
 
 **Status**: need to parse Blockchain.info HTML reponse and extract transaction JSON from a `<pre>` tag.
 
-#### easyBtc.createPushAndConfirmTransaction(fromWIF, txHashOrigin, toAddress, value, opt_timeout, opt_interval)
+#### createPushAndConfirmTransaction(fromWIF, txHashOrigin, toAddress, value, opt_timeout, opt_interval)
 Creates, pushes and awaits for a transaction confirmation.
 
 **Status**: Done, just waiting for the `decodeTransaction` method to be completed.
