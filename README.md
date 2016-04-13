@@ -1,5 +1,7 @@
 # easy-bitcoin-js
 
+A simple module with basic Bitcoin operations using [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) and [Blockchain.info API](http://blockchain.info). 
+
 [![npm package](https://nodei.co/npm/easy-bitcoin-js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/easy-bitcoin-js/)
 
 ### Super simple to use
@@ -7,6 +9,10 @@
 ```javascript
 var easyBtc = require('easy-bitcoin-js');
 ```
+
+### Development status
+
+> **We are in alpha.** This means the current operations, even if they are complete, are under development and were not tested.
 
 ### Supported operations
 
