@@ -1,6 +1,6 @@
 # easy-bitcoin-js
 
-[![npm package](https://nodei.co/npm/request.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/request/)
+[![npm package](https://nodei.co/npm/easy-bitcoin-js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/easy-bitcoin-js/)
 
 ### Super simple to use
 
